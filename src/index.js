@@ -1,5 +1,6 @@
 const koa = require('koa')
 const render = require('koa-ejs')
+const serve = require('koa-static')
 const path = require('path')
 
 const router = require('./router.js')
@@ -11,10 +12,12 @@ const PORT = process.env.PORT || 3000;
 render(koaApp, {
 	root: path.join(__dirname, 'views'),
 	viewExt: '',
-	layout: false
+	layout: 'layout.ejs'
 })
 
 koaApp.use(router.routes())
+koaApp.use(serve('.'))
+koaApp.use(serve(__dirname + '/views'))
 
 const app = new Object()
 
