@@ -1,0 +1,21 @@
+{
+  "name": "m1-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troncosoae/m1-platform.git"
+  },
+  "author": "troncosoae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troncosoae/m1-platform/issues"
+  },
+  "homepage": "https://github.com/troncosoae/m1-platform#readme"
+}
