@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/troncosoae/m1-platform/issues"
   },
-  "homepage": "https://github.com/troncosoae/m1-platform#readme"
+  "homepage": "https://github.com/troncosoae/m1-platform#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^10.0.0"
+  }
 }
