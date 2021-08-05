@@ -6,7 +6,7 @@ const router = require('./router.js')
 
 koaApp = new koa()
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 render(koaApp, {
 	root: path.join(__dirname, 'views'),
