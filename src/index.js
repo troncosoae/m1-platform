@@ -23,9 +23,9 @@ const app = new Object()
 
 app.start = async function () {
 	console.log('Starting app...')
-	this.server = await koaApp.listen(PORT)
-	console.log(`Listening to PORT ${PORT}...`)
-	// console.log(this)
+	console.log(`	Connecting to PORT ${PORT}...`)
+	app.server = await koaApp.listen(PORT)
+	console.log(`	Listening to PORT ${PORT}...`)
 }
 
 module.exports = app

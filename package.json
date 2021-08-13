@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/troncosoae/m1-platform#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "koa": "^2.13.1",
     "koa-ejs": "^4.3.0",
     "koa-router": "^10.0.0",
     "koa-static": "^5.0.0",
-    "node-sass": "^6.0.1"
+    "node-sass": "^6.0.1",
+    "pg": "^8.7.1"
   }
 }
